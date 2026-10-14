@@ -1,4 +1,4 @@
-# 📦 Last-Mile Delivery Performance Analysis
+# Last-Mile Delivery Performance Analysis
 
 > **Python (Pandas, NumPy) · Jupyter Notebook · Tableau Public**
 
@@ -8,7 +8,7 @@ This project analyzes food-delivery orders to understand how much time is spent 
 
 ---
 
-## 🔍 Key Insights
+## Key Insights
 
 The analysis is still in progress. Add 2–3 findings here after analyzing the cleaned dataset or building the Tableau dashboard. Use measured values from the project rather than example numbers.
 
@@ -19,7 +19,7 @@ The analysis is still in progress. Add 2–3 findings here after analyzing the c
 ---
 
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 ├── data/
@@ -28,7 +28,7 @@ The analysis is still in progress. Add 2–3 findings here after analyzing the c
 └── README.md
 ```
 
-## 🗂 Dataset
+## Dataset
 
 - **Source:** [Food Delivery Dataset on Kaggle](https://www.kaggle.com/datasets/gauravmalik26/food-delivery-dataset?select=train.csv)
 - **File:** `train.csv`
@@ -36,7 +36,7 @@ The analysis is still in progress. Add 2–3 findings here after analyzing the c
 
 ---
 
-## 🧹 Data Preparation Workflow
+## Data Preparation Workflow
 
 All processing steps are implemented in [`FoodDelivery.ipynb`](FoodDelivery.ipynb).
 
@@ -55,7 +55,7 @@ All processing steps are implemented in [`FoodDelivery.ipynb`](FoodDelivery.ipyn
 | 11 | Categorize order time | Creates `Time_Category` based on the hour in `Time_Orderd`: Breakfast, Lunch Peak, Afternoon, Dinner Rush, or Late Night. |
 | 12 | Create the flag | Calls the IQR function for `Total_delivery_time(min)` and creates `Flag`, set to `True` when total delivery time is less than or equal to the third-quarter value, and `False` otherwise. |
 
-### 🧮 IQR Function
+### IQR Function
 
 The notebook's `IQR(data, column)` function returns three values:
 
@@ -65,7 +65,7 @@ The notebook's `IQR(data, column)` function returns three values:
 
 The notebook uses the fences to filter outliers from `Time_taken(min)`. It then uses the third-quarter value of `Total_delivery_time(min)` to create the `Flag` column.
 
-### 🧱 Engineered Features
+### Engineered Features
 
 | Column | Meaning |
 |---|---|
@@ -85,7 +85,7 @@ The notebook uses the fences to filter outliers from `Time_taken(min)`. It then 
 | 18:00–21:59 | Dinner Rush |
 | 22:00–05:59 | Late Night |
 
-### 🚧 Remaining Tasks
+### Remaining Tasks
 
 - [ ] Export the cleaned dataset to `data/clean_delivery_data.csv` for Tableau.
 - [ ] Build and publish the Tableau Public dashboard.
@@ -95,7 +95,7 @@ The notebook uses the fences to filter outliers from `Time_taken(min)`. It then 
 ---
 
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Python** — data processing and calculations
 - **Pandas** — data cleaning and DataFrame operations
