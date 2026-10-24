@@ -14,7 +14,7 @@ The analysis is still in progress. Add 2–3 findings here after analyzing the c
 
 - **Finding 1:** Add a result about preparation time versus transit time.
 - **Finding 2:** Add a result about delivery times across time-of-day categories.
-- **Finding 3:** Add another supported result, such as differences by city or vehicle type.
+
 
 ---
 
