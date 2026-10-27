@@ -8,9 +8,6 @@ This project analyzes food-delivery orders to understand how much time is spent 
 
 ---
 
-## Key Insights
-
-The analysis is still in progress. Add 2–3 findings here after analyzing the cleaned dataset or building the Tableau dashboard. Use measured values from the project rather than example numbers.
 
 
 
