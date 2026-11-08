@@ -2,7 +2,9 @@
 
 > **Python (Pandas, NumPy) · Jupyter Notebook · Tableau Public**
 
+## Business Problem
 
+This project analyzes food-delivery orders to understand how much time is spent preparing an order and transporting it to the customer. The cleaned data also includes time-of-day categories and a flag based on the third quartile of total delivery time, which can support further analysis of delivery patterns.
 
 ---
 
