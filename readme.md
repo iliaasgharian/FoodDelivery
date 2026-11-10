@@ -12,6 +12,10 @@ This project analyzes food-delivery orders to understand how much time is spent 
 
 The analysis is still in progress. Add 2–3 findings here after analyzing the cleaned dataset or building the Tableau dashboard. Use measured values from the project rather than example numbers.
 
+- **Finding 1:** Add a result about preparation time versus transit time.
+- **Finding 2:** Add a result about delivery times across time-of-day categories.
+- **Finding 3:** Add another supported result, such as differences by city or vehicle type.
+
 ---
 
 
