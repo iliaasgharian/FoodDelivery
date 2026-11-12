@@ -21,6 +21,12 @@ The analysis is still in progress. Add 2–3 findings here after analyzing the c
 
 ## Repository Structure  
 
+```text
+├── data/
+│   └── train.csv              # Raw dataset downloaded from Kaggle
+├── FoodDelivery.ipynb         # Data cleaning, calculations, and feature engineering
+└── README.md
+```
 
 ## Dataset
 
