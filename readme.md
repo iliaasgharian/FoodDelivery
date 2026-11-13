@@ -99,7 +99,7 @@ The notebook uses the fences to filter outliers from `Time_taken(min)`. It then 
 
 - **Python** — data processing and calculations
 - **Pandas** — data cleaning and DataFrame operations
-- **NumPy** — numerical computing library imported in the notebook
+- **NumPy** — numerical computing library imported in the notebook 
 - **Jupyter Notebook** — analysis workflow
 
 ---
